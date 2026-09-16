@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex"/>
+        <szinesz id="u5g_4xm_2jb" nev="Madison_Ivy"/>
+        <szinesz id="a">
+            <gyerekszinesz />
+            <musicalszinesz />
+            <szinkronszinesz />
+        </szinesz>
+        <rendezo id="aaa_3xm_2jb" nev="albert">
+            <iroda id="bbb_4xm_2jb" location="miskolc"/>
+            <phone id="ccc_4xm_2jb" number="36306592134"/>
+        </rendezo>
+        <rendezo id="aba_4xm_2jb" nev="hunor">
+            <iroda id="abb_4xm_2jb" location="miskolc"/>
+            <phone id="acc_4xm_2jb" number="36306592135"/>
+        </rendezo>
+        <iro id="trv_5xm_2jb" nev="matyas">
+            <iroda id="aab_4xm_2jb" location="miskolc"/>
+            <phone id="aac_4xm_2jb" number="36306592136"/>
+        </iro>
+        <iro id="trv_6xm_2jb" nev="peter">
+            <iroda id="acb_4xm_2jb" location="miskolc"/>
+            <phone id="abc_4xm_2jb" number="36306592137"/>
+        </iro>
+    </film>
+</mozi>

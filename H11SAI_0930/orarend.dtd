@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT H11SAI_orarend (ora)*>
+
+<!ELEMENT ora (targy+,idopont+,helyszin+,oktato+,szak+)>
+<!ATTLIST ora id ID #REQUIRED>
+<!ATTLIST ora type (elmélet | gyakorlat)>
+
+<!ELEMENT targy (#PCDATA)>
+
+<!ELEMENT idopont (start+, end+, nap+,)>
+    <!ELEMENT start (#PCDATA)>
+    <!ELEMENT end (#PCDATA)>
+    <!ELEMENT nap (#PCDATA)>
+
+<!ELEMENT helyszin (#PCDATA)>
+
+<!ELEMENT oktato (#PCDATA)>

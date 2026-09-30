@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<H11SAI_kurzusfelvetel tanev="2026/2027" egyetem="Miskolci Egyetem">
+    <hallgato>
+        <hnev>Tamás Kovács</hnev>
+        <szulev>2005</szulev>
+        <szak>programtervező informatikus BsC</szak>
+    </hallgato>
+    <kurzusok id="aaa111" jovahagyas="true", nyelv="magyar">
+        <kurzusnev>aaa</kurzusnev>
+        <kredit>5</kredit>
+        <hely>In/103</hely>
+        <idopont>Hétfő 8:00</idopont>
+        <oktato>-</oktato>
+        <oraado>-</oraado>
+    </kurzusok>
+    <kurzusok id="aaa112" jovahagyas="false", nyelv="magyar">
+        <kurzusnev>bbb</kurzusnev>
+        <kredit>5</kredit>
+        <hely>In/102</hely>
+        <idopont>Hétfő 10:00</idopont>
+        <oktato>-</oktato>
+        <oraado>-</oraado>
+    </kurzusok>
+    <kurzusok id="aaa113">
+        <kurzusnev>ccc</kurzusnev>
+        <kredit>5</kredit>
+        <hely>In/202</hely>
+        <idopont>Kedd 8:00</idopont>
+        <oktato>-</oktato>
+    </kurzusok>
+    <kurzusok id="aaa114">
+        <kurzusnev>ddd</kurzusnev>
+        <kredit>5</kredit>
+        <hely>5. előadó</hely>
+        <idopont>Kedd 10:00</idopont>
+        <oktato>-</oktato>
+    </kurzusok>
+    <kurzusok id="aaa115">
+        <kurzusnev>eee</kurzusnev>
+        <kredit>5</kredit>
+        <hely>32. előadó</hely>
+        <idopont>Szerda 8:00</idopont>
+        <oktato>-</oktato>
+    </kurzusok>
+    <kurzusok id="aaa116">
+        <kurzusnev>fff</kurzusnev>
+        <kredit>5</kredit>
+        <hely>1. előadó</hely>
+        <idopont>Szerda 10:00</idopont>
+        <oktato></oktato>
+    </kurzusok>

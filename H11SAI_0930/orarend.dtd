@@ -6,13 +6,13 @@
 <!ATTLIST ora id ID #REQUIRED>
 <!ATTLIST ora type (elmélet | gyakorlat)>
 
-<!ELEMENT targy (#PCDATA)>
+<!ELEMENT targy (#CDATA)>
 
 <!ELEMENT idopont (start+, end+, nap+,)>
     <!ELEMENT start (#PCDATA)>
-    <!ELEMENT end (#PCDATA)>
-    <!ELEMENT nap (#PCDATA)>
+    <!ELEMENT end (#CDATA)>
+    <!ELEMENT nap (#CDATA)>
 
-<!ELEMENT helyszin (#PCDATA)>
+<!ELEMENT helyszin (#CDATA)>
 
-<!ELEMENT oktato (#PCDATA)>
+<!ELEMENT oktato (#CDATA)>

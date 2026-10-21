@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vendeglatas>
+    <etterem id="e1">
+        <nev>Trofea</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Visegradi utca</utca>
+            <hazszam>13</hazszam>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+    <etterem id="e2">
+        <nev>Gundel</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Allatkerti ut</utca>
+            <hazszam>2</hazszam>
+        </cim>
+        <csillag>5</csillag>
+    </etterem>
+    <etterem id="e3">
+        <nev>Bocuse</nev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Széchenyi utca</utca>
+            <hazszam>7</hazszam>
+        </cim>
+        <csillag>5</csillag>
+    </etterem>
+    <szakacs id="sz1" e_sz="e1">
+        <nev>Kiss Peter</nev>
+        <vegzettseg>szakkozepiskola</vegzettseg>
+        <vegzettseg>egyetem</vegzettseg>
+        <foszakacs>igen</foszakacs>
+    </szakacs>
+    <szakacs id="sz2" e_sz="e2">
+        <nev>Nagy Anna</nev>
+        <vegzettseg>egyetem</vegzettseg>
+        <foszakacs>nem</foszakacs>
+    </szakacs>
+    <szakacs id="sz3" e_sz="e3">
+        <nev>Toth Bela</nev>
+        <vegzettseg>szakkozepiskola</vegzettseg>
+        <foszakacs>nem</foszakacs>
+    </szakacs>
+    <gyakornok id="gy1" e_gy="e1">
+        <nev>Szabo Eva</nev>
+        <beosztas>delelott</beosztas>
+    </gyakornok>
+    <gyakornok id="gy2" e_gy="e2">
+        <nev>Varga Zoltan</nev>
+        <beosztas>delutan</beosztas>
+    </gyakornok>
+    <vendeg id="v1">
+        <nev>Horvath Gabor</nev>
+        <kor>35</kor>
+    </vendeg>
+    <vendeg id="v2">
+        <nev>Molnar Reka</nev>
+        <kor>28</kor>
+    </vendeg>
+    <rendeles id="r1" e_v_v="v1" etterem="e1">
+        <datum>2026-10-01</datum>
+    </rendeles>
+    <rendeles id="r2" e_v_v="v2" etterem="e2">
+        <datum>2026-10-02</datum>
+    </rendeles>
+</vendeglatas>
